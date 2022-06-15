@@ -15,9 +15,9 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
     <Routes>
-      <Route path='/' element={<TodoContainer />}></Route>
-      <Route path='*' element={<NotMatch />}></Route>
-      <Route path='/functionBased/pages/About' element={<About />}></Route>
+      <Route path='/react-todo-app/' element={<TodoContainer />}></Route>
+      <Route path='/react-todo-app/*' element={<NotMatch />}></Route>
+      <Route path='/react-todo-app/functionBased/pages/About' element={<About />}></Route>
     </Routes>
     </BrowserRouter>
   </React.StrictMode>,

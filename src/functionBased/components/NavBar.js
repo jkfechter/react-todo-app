@@ -33,7 +33,7 @@ const NavBar = () => {
             ) : (
                 <FiMenu style={{ color:"#7b7b7b", width: "40px", height: "40px" }}/>
                 )}</button>
-      <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`} >
+      <ul className={`menuNav ${navbarOpen ? "showMenu" : ""}`} >
         {links.map((link) => {
           return (
             <li key={link.id}>
